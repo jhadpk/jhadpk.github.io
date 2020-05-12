@@ -1,34 +1,7 @@
 <html lang="en-US">
-<head>
-<style>
-#details {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-#details td, #details th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#details tr:nth-child(even){background-color: #f2f2f2;}
-
-#details tr:hover {background-color: #ddd;}
-
-#details th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #4CAF50;
-  color: white;
-}
-</style>
-</head>
   <body>
     <header>
       <div class="container">
-        <h1>INF_553</h1>
         <section id="downloads">
           <a href="https://github.com/jhadpk/INF553-assignments/tree/master/DM-Assignments-3.6" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
