@@ -1,5 +1,30 @@
-<!DOCTYPE html>
 <html lang="en-US">
+<head>
+<style>
+#details {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#details td, #details th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#details tr:nth-child(even){background-color: #f2f2f2;}
+
+#details tr:hover {background-color: #ddd;}
+
+#details th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
   <body>
     <header>
       <div class="container">
@@ -12,11 +37,9 @@
 
     <div class="container">
       <section id="main_content">
-        <h1 id="2020-spring-usc-inf_553-foundations-and-applications-of-data-mining">USC INF_553 (Foundations and Applications of Data Mining) : Spring 2020</h1>
-
-      <p>Coursework in University of Southern California. Implement Data Mining techiques on Spark with Python3.</p>
-
-      <table>
+        <h1 id="2020-spring-usc-inf_553-foundations-and-applications-of-data-mining">INF553: Spring 2020</h1>
+      <p>Implement Data Mining techiques on Spark with Python3</p>
+      <table id="details">
         <thead>
           <tr>
             <th>Assignment</th>
